@@ -1,0 +1,195 @@
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  li a:hover {
+    background-color: #111;
+  }
+
+  .active {
+      background-color: #04AA6D;
+  }
+  ul {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  }
+
+  ul {
+position: -webkit-sticky; /* Safari */
+position: sticky;
+top: 0;
+}
+
+.wrapper {
+    width: 100%;
+    overflow: hidden;
+
+}
+.container {
+    width: 100%;
+    margin: 0 auto;
+}
+.banner-img {
+    width: 100%;
+}
+
+.centered {
+    display:  block;
+    position: absolute;
+    bottom: 0;
+    background: rgb(0, 0, 0); /* Fallback color */
+    background: rgba(0, 0, 0, 0.5); /* Black background with 0.5 opacity */
+    color: #f1f1f1;
+    width: 40%;
+    text-align: center;
+    padding: 20px;
+    left: 0;
+    width: 100%;
+    height: 36px;
+    line-height: 36px;
+    background: #000;
+    filter: alpha(opacity=60);
+    -moz-opacity: 0.5;
+    opacity: 0.5;
+  }
+
+  .avatar img{
+    width: 310px;
+    height: 310px;
+    display: block;
+    margin: 0 40%;
+  }
+
+  .avatar span {
+    display: block;
+    text-align: center;
+    margin: 20px auto;
+}
+
+hr {
+    border: 1px solid #04AA6D;
+    width: 364px;
+    margin: 30pt 38%;
+}
+
+.avatar p {
+    display: block;
+    text-align: center;
+    font-size: 25px;
+    color: #04AA6D;
+}
+
+.project .image1 {
+    display: inline-block;
+    width: 20%;
+    /* border: 1px solid red; */
+    /*use for test*/
+    margin-left: 30%;
+    margin-top: 20px;
+    vertical-align: top;
+}
+
+.project .image1 img {
+    height: 170px;
+}
+
+.project .txt1 {
+    display: inline-block;
+    width: 30%;
+    margin-top: 60px;
+    text-align: left;
+    vertical-align: top;
+}
+
+/**/
+.project .image2 {
+    display: inline-block;
+    width: 22%;
+    margin-left: 30%;
+    margin-top: 20px;
+    vertical-align: top;
+}
+
+.project .image2 img {
+    height: 100px;
+}
+
+.project .txt2 {
+    display: inline-block;
+    width: 30%;
+    margin-top: 60px;
+    text-align: left;
+    vertical-align: top;
+}
+
+
+
+.photo {
+    width: 100vw;
+    height: 20vw;
+    margin-top: 10px;
+}
+
+.p1 {
+    width: 20%;
+    height: 20vw;
+    float: left;
+    margin-left: 8%;
+}
+
+.p1 img {
+    width: 100%;
+    height: 20vw;
+}
+
+.p2 {
+    width: 20%;
+    height: 20vw;
+    float: left;
+}
+
+.p2 img {
+    width: 100%;
+    height: 20vw;
+}
+
+.p3 {
+    width: 20%;
+    height: 20vw;
+    float: left;
+}
+
+.p3 img {
+    width: 100%;
+    height: 20vw;
+}
+
+.p4 {
+    width: 20%;
+    height: 20vw;
+    float: left;
+}
+
+.p4 img {
+    width: 100%;
+    height: 20vw;
+}
+
+
